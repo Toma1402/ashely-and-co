@@ -106,8 +106,11 @@ a {
 
 .first-side {
   display: inline-block;
+  padding-left: 40px;
 }
 .wax-title {
+  margin-bottom: 601px;
+  padding-top: 39px;
   font-family: var(--font);
 
   font-weight: 400;
@@ -115,8 +118,10 @@ a {
   line-height: 1.27;
   letter-spacing: 0.5px;
   color: #b2b2b2;
+  text-transform: uppercase;
 }
 .wax-text {
+  margin-bottom: 22px;
   font-family: var(--font);
 
   font-size: 16px;
@@ -129,6 +134,7 @@ a {
 .wax-link {
   display: block;
   padding-bottom: 5px;
+  width: 217px;
   font-family: var(--font);
 
   font-size: 12px;
@@ -136,5 +142,17 @@ a {
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: #b2b2b2;
-  border-bottom: #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+}
+.link-text {
+  padding-bottom: 40px;
+}
+.under-wax-text {
+  font-family: var(--font);
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: right;
+  letter-spacing: 0.5px;
+
+  color: #b2b2b2;
 }
