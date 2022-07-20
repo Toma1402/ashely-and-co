@@ -1,0 +1,140 @@
+:root {
+  --font: "Roboto" sans-serif;
+  --primary-color: #262626;
+}
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right-side {
+  display: flex;
+}
+
+.header-section {
+  position: relative;
+  z-index: 1;
+}
+.top {
+  position: absolute;
+  display: flex;
+  margin-top: 26px;
+}
+.logo {
+  margin-right: 1137px;
+  margin-left: 26px;
+}
+.header-text {
+  margin-right: 40px;
+  font-family: var(--font);
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  color: var(--primary-color);
+}
+.header-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.power-product {
+  background-color: #e7f066;
+  position: relative;
+}
+.under-image {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+  letter-spacing: 0.5px;
+
+  color: var(--primary-color);
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.black {
+  position: absolute;
+  display: inline-block;
+  background-color: #1b1b1b;
+  width: 376px;
+  right: 32px;
+  bottom: 32px;
+}
+.black-text,
+.black-link {
+  padding-left: 48px;
+}
+.black-text {
+  padding-top: 47px;
+  padding-right: 53px;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.5px;
+  color: #f1f1ee;
+}
+.black-link {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-family: var(--font);
+  font-size: 12px;
+  line-height: 1.58;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #f1f1ee;
+}
+.bg-wax {
+  background-color: #9c8554;
+  display: flex;
+}
+
+.first-side {
+  display: inline-block;
+}
+.wax-title {
+  font-family: var(--font);
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.5px;
+  color: #b2b2b2;
+}
+.wax-text {
+  font-family: var(--font);
+
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.5px;
+
+  color: #b2b2b2;
+}
+.wax-link {
+  display: block;
+  padding-bottom: 5px;
+  font-family: var(--font);
+
+  font-size: 12px;
+  line-height: 1.58;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+  border-bottom: #b2b2b2;
+}
